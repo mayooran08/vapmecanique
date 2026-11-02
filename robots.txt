@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mayooran08.github.io/vapmecanique/sitemap.xml

@@ -5,27 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Promotions – Mécanique VAP</title>
   <meta name="description" content="Découvrez les promotions et offres saisonnières de Mécanique VAP à Laval.">
+  <meta name="theme-color" content="#1d1d1f">
+  <link rel="canonical" href="https://mayooran08.github.io/vapmecanique/promotions.html">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/favicon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_CA">
+  <meta property="og:site_name" content="Mécanique VAP">
+  <meta property="og:title" content="Promotions – Mécanique VAP">
+  <meta property="og:description" content="Découvrez les promotions et offres saisonnières de Mécanique VAP à Laval.">
+  <meta property="og:url" content="https://mayooran08.github.io/vapmecanique/promotions.html">
+  <meta property="og:image" content="https://mayooran08.github.io/vapmecanique/img/logo.png">
+  <meta name="twitter:card" content="summary">
+  <script>try{var t=localStorage.getItem("theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.dataset.theme=t}catch(e){}</script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<a class="skip" href="#main">Aller au contenu</a>
 <header class="site-header">
   <div class="container">
     <a class="logo" href="index.html" aria-label="Mécanique VAP – Accueil">
-      <span class="logo-mark">VAP</span>
+      <img src="img/logo.png" alt="" width="50" height="50">
       <span>Mécanique VAP<small>Laval · Depuis 1978</small></span>
     </a>
-    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <button class="icon-btn menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
     <nav class="nav" aria-label="Navigation principale">
       <a href="index.html">Accueil</a>
       <a href="a-propos.html">À propos</a>
       <a href="services.html">Services</a>
       <a href="promotions.html" aria-current="page">Promotions</a>
       <a href="contact.html">Contact</a>
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Changer de thème">🌙</button>
       <a class="btn" href="contact.html#rendez-vous">Prendre rendez-vous</a>
     </nav>
   </div>
 </header>
-<main>
+<main id="main">
 <section class="page-hero"><div class="container"><p class="eyebrow">Promotions</p><h1>Offres en cours</h1><p>Profitez de nos promotions saisonnières. Mentionnez l'offre lors de la prise de rendez-vous.</p></div></section>
 
 <section class="section">
@@ -54,7 +69,7 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <a class="logo" href="index.html"><span class="logo-mark">VAP</span><span style="color:#fff">Mécanique VAP</span></a>
+        <a class="logo" href="index.html"><img src="img/logo.png" alt="" width="50" height="50"><span style="color:#fff">Mécanique VAP</span></a>
         <p style="margin-top:1rem">La précision est notre standard. Entretien, réparation et diagnostic pour tous types de véhicules, y compris hybrides et électriques.</p>
       </div>
       <div>
@@ -90,6 +105,7 @@
     </div>
   </div>
 </footer>
+<button class="to-top" aria-label="Retour en haut" type="button">↑</button>
 <script src="js/main.js"></script>
 </body>
 </html>
